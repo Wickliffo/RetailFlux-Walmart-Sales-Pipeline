@@ -6,6 +6,7 @@
 In the high-volume retail sector, seasonal demand and macroeconomic shifts (like inflation and unemployment) can create multi-million dollar swings in inventory costs. This project implements a robust ETL (Extract, Transform, Load) pipeline designed to ingest fragmented retail and economic data to identify high-revenue performance trends.
 
 
+
 The "$10,000 High-Impact" Logic
 To ensure the business makes decisions based on statistically significant revenue drivers, I implemented a $10,000 revenue floor for all weekly departmental sales.
 
