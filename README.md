@@ -1,26 +1,35 @@
 
 
-🛒 RetailFlux: Walmart Supply & Demand Data Pipeline
+🛒 RetailFlux: Walmart Supply & Demand Data Pipeline.
+
 📝 Executive Summary
 In the high-volume retail sector, seasonal demand and macroeconomic shifts (like inflation and unemployment) can create multi-million dollar swings in inventory costs. This project implements a robust ETL (Extract, Transform, Load) pipeline designed to ingest fragmented retail and economic data to identify high-revenue performance trends.
+
 
 The "$10,000 High-Impact" Logic
 To ensure the business makes decisions based on statistically significant revenue drivers, I implemented a $10,000 revenue floor for all weekly departmental sales.
 
-The Problem: Small "long-tail" departments or fringe weeks with low sales create "noise" that skews monthly averages.
+The Problem: 
+Small "long-tail" departments or fringe weeks with low sales create "noise" that skews monthly averages.
 
-The Solution: By filtering for weeks where Weekly_Sales > 10000, the pipeline isolates the core revenue engines of the business.
+The Solution:
+By filtering for weeks where Weekly_Sales > 10000, the pipeline isolates the core revenue engines of the business.
 
-Business Value: This allows supply chain managers to focus on high-velocity inventory needs, optimizing stock levels where the financial risk is highest.
+Business Value: 
+This allows supply chain managers to focus on high-velocity inventory needs, optimizing stock levels where the financial risk is highest.
 
 🛠️ Tech Stack & Tools
-Language: Python (Pandas, NumPy)
+Language:
+Python (Pandas, NumPy)
 
-Data Sources: PostgreSQL (Transactional Data), Parquet (Macroeconomic & Metadata)
+Data Sources: 
+PostgreSQL (Transactional Data), Parquet (Macroeconomic & Metadata)
 
-Orchestration: Modular Python functions for automated processing.
+Orchestration:
+Modular Python functions for automated processing.
 
-Development: DataCamp DataLab & GitHub Copilot for code optimization.
+Development: 
+DataCamp DataLab & GitHub Copilot for code optimization.
 
 🏗️ The Pipeline Workflow
 The pipeline follows a strict three-stage architecture to ensure data integrity and reproducibility.
