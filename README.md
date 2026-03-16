@@ -51,7 +51,7 @@ Macro Correlation: By including CPI and Unemployment data, the pipeline provides
 Clone the repo:
 
 Bash
-git clone https://github.com/your-username/retailflux-pipeline.git
+git clone https://github.com/Wickliffo/retailflux-pipeline.git
 Install dependencies:
 
 Bash
